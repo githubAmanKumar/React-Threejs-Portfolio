@@ -1,0 +1,126 @@
+.projects {
+    /* background-color: red; */
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    margin: 0;
+
+    .cards {
+        display: flex;
+        gap: 8vw;
+    }
+
+    h2 {
+        top: 20%;
+        font-size: 5vw;
+            font-weight: bold;
+            letter-spacing: -0.2vw;
+            -webkit-text-stroke: 0.5px white;
+            color: orangered;
+    }
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        width: 15vw;
+        height: 20vw;
+    }
+
+    .card img {
+        width: 100%;
+        height: 90%;
+    }
+
+    .card a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: black;
+        background: white;
+        border-radius: 20px;
+        margin-top: 10px;
+        padding: 10px;
+        font-size: 1.3vw;
+    }
+
+    .card a:hover {
+        opacity: 0.5;
+    }
+}
+
+@media screen and (max-width: 724px) {
+    .projects {
+        height: 350vh;
+
+        h2 {
+            position: relative;
+            top: 0%;
+            font-size: 7vw;
+        }
+
+        .cards {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+
+        }
+
+        .card {
+            width: 40vw;
+            height: 80vh;
+            margin: 70px;
+            flex-direction: column;
+
+        }
+
+        .card a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: black;
+            background: white;
+            border-radius: 20px;
+            margin-top: 10px;
+            padding: 10px;
+            font-size: 2vh;
+        }
+
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .projects {
+        /* position: relative;
+        flex-direction: column; */
+
+        h2 {
+            position: relative;
+            top: 0%;
+            font-size: 9vw;
+        }
+
+        .card {
+            width: 50vw;
+            height: 40vh;
+            margin: 70px;
+        }
+
+        .card a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: black;
+            background: white;
+            border-radius: 20px;
+            margin-top: 10px;
+            padding: 10px;
+        }
+    }
+}

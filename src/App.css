@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&family=Jost:ital,wght@1,200&family=Poppins:wght@700&family=Roboto&family=Ubuntu&family=Varela+Round&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+*::selection {
+    color: black;
+    background: white;
+}
+
+canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+html,
+body {
+    /* background: transparent; */
+    color: white;
+    overflow-x: hidden;
+    -webkit-text-stroke: 0.1px orangered;
+    cursor: none;
+}
+
+main {
+    width: 100vw;
+    height: 100%;
+}
+
+

@@ -1,0 +1,60 @@
+/* Homepage */
+
+.homepage {
+    background-size: 100% 100%;
+    color: black;
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    position: relative;
+    padding-left: 10%;
+    margin: 0;
+  
+  
+    .homeHeadings {
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        flex-direction: column;
+        gap: 0.2vw;
+        color: black;
+    }
+  
+    .homeHeadings h1 {
+        position: relative;
+        font-size: 6vw;
+        font-weight: bold;
+        letter-spacing: -0.2vw;
+        -webkit-text-stroke: 0.5px white;
+        color: orangered;
+    }
+  
+    .homeHeadings h2 {
+        position: relative;
+        font-size: 3vw;
+        font-weight: bold;
+        letter-spacing: -0.2vw;
+        font-family: 'Jost';
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        left: 15%;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .homepage {
+        .homeHeadings h1 {
+            font-size: 6vh;
+        }
+  
+        .homeHeadings h2 {
+            font-size: 3vh;
+        }
+    }
+  }

@@ -1,0 +1,61 @@
+/* About */
+.about {
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+    font-size: 2vw;
+    margin: 0;
+
+    h1 {
+        position: relative;
+        font-size: 5vw;
+        font-weight: bold;
+        letter-spacing: -0.2vw;
+        -webkit-text-stroke: 0.5px white;
+        color: orangered;
+    }
+    p {
+        width: 75vw;
+        font-weight: 700;
+        font-size: 2vw;
+        line-height: 40px;
+        z-index: 1;
+    }
+
+}
+
+@media screen and (max-width: 830px) {
+    .about {
+        font-size: 2.4vw;
+
+        p {
+            width: 75vw;
+            font-size: 3vw;
+            line-height: 35px;
+        }
+    }
+}
+
+@media screen and (max-width: 572px) {
+    .about {
+        font-size: 4vw;
+
+        p {
+            width: 80vw;
+            font-size: 3.7vw;
+            line-height: 28px;
+        }
+    }
+}
+
+@media screen and (max-width: 416px) {
+    .about {
+        p {
+            line-height: 25px;
+        }
+    }
+}

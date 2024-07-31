@@ -1,0 +1,119 @@
+.contact {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0;
+
+    h6 {
+        font-size: 4vw;
+        width: 40vw;
+    }
+
+    .contactLinks {
+        background: transparent;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .contactLinks h5 {
+        font-size: 3vw;
+        text-align: center;
+        -webkit-text-stroke: 0.5px white;
+        color: orangered;
+    }
+
+    .contactLinks div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .contactLinks div a {
+        color: black;
+        background-color: white;
+        padding: 2px 4px;
+        border-radius: 5px;
+    }
+
+    .contactLinks div a:hover {
+        opacity: 0.7;
+    }
+}
+
+@media screen and (max-width: 906px) {
+    .contact {
+        width: 100vw;
+        height: 200vh;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+
+        h6 {
+            font-size: 6vw;
+            width: 60vw;
+        }
+
+        .contactLinks {
+            background: transparent;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            gap: 50px;
+        }
+
+        .contactLinks h5 {
+            font-size: 3vw;
+            text-align: center;
+        }
+
+        .contactLinks div a {
+            font-size: 3vw;
+        }
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .contact {
+        width: 100vw;
+        height: 170vh;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+
+        h6 {
+            font-size: 6vw;
+            width: 60vw;
+        }
+
+        .contactLinks {
+            background: transparent;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            gap: 100px;
+        }
+
+        .contactLinks h5 {
+            font-size: 7vw;
+            text-align: center;
+        }
+
+        .contactLinks div a {
+            font-size: 4vw;
+        }
+    }
+}
